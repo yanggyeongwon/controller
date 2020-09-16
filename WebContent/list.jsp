@@ -26,8 +26,8 @@
 		<td>${name.passwd }</td>
 		<td>${name.name }</td>
 		<td>${name.register }</td>
-		<td></td>
-		<td></td>
+		<td><a href="#">삭제</a></td>
+		<td><a href="#">수정</a></td>
 	</tr>
 	</c:forEach>
 </table>

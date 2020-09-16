@@ -66,7 +66,7 @@ public class MemberDAO {
 	}
 
 	public ArrayList<MemberDTO> getSelectAll() {
-		String sql = "select * from member order bu num asc";
+		String sql = "select * from member order by num asc";
 		
 		ArrayList<MemberDTO> lists = new ArrayList<MemberDTO>();
 		try {
@@ -77,7 +77,7 @@ public class MemberDAO {
 				String id = rs.getString(2);
 				String pw = rs.getString(3);
 				String name = rs.getString(4);
-				String register = String.valueOf(rs.getDate(5));
+				String register = String.valueOf(rs.getDate("register"));
 				MemberDTO dto = new MemberDTO(num2,id,pw,name,register);
 				lists.add(dto);
 			}

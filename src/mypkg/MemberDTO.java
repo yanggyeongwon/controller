@@ -42,10 +42,10 @@ public class MemberDTO {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public String getDate() {
+	public String getRegister() {
 		return register;
 	}
-	public void setDate(String register) {
+	public void setRegister(String register) {
 		this.register = register;
 	}
 	
