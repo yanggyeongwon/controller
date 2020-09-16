@@ -10,12 +10,12 @@
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
   
-  <servlet>
+ <!--  <servlet>
   	<servlet-name>sd</servlet-name>
   	<servlet-class>MemberServlet</servlet-class>
   </servlet>
   <servlet-mapping>
   	<servlet-name>sd</servlet-name>
   	<url-pattern>*.do</url-pattern>
-  </servlet-mapping>
+  </servlet-mapping> -->
 </web-app>

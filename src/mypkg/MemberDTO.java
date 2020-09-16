@@ -5,18 +5,18 @@ public class MemberDTO {
 	private String id;
 	private String passwd;
 	private String name;
-	private String date;
+	private String register;
 	
 	public MemberDTO() {
 		
 	}
-	public MemberDTO(int num, String id, String passwd, String name, String date) {
+	public MemberDTO(int num, String id, String passwd, String name, String register) {
 		super();
 		this.num = num;
 		this.id = id;
 		this.passwd = passwd;
 		this.name = name;
-		this.date = date;
+		this.register = register;
 	}
 	public int getNum() {
 		return num;
@@ -43,10 +43,10 @@ public class MemberDTO {
 		this.name = name;
 	}
 	public String getDate() {
-		return date;
+		return register;
 	}
-	public void setDate(String date) {
-		this.date = date;
+	public void setDate(String register) {
+		this.register = register;
 	}
 	
 	
